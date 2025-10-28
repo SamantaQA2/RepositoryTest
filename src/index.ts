@@ -1,4 +1,4 @@
-// ❌ Unused imports
+// ❌ Unused imports 
 
 // ❌ Prefer const / no var
 const x = 5;
@@ -123,3 +123,4 @@ function switchTest(val: number): string {
       throw new Error("Invalid value");
   }
 }
+
