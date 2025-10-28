@@ -1,9 +1,9 @@
 // ❌ Unused imports 
 
 // ❌ Prefer const / no var
-const x = 5;
-let y = 10;
-y = 20;
+// const x = 5;
+// let y = 10;
+// y = 20;
 
 // ❌ Arrow body style
 const add = (a: number, b: number) => a + b;
@@ -123,4 +123,5 @@ function switchTest(val: number): string {
       throw new Error("Invalid value");
   }
 }
+
 
