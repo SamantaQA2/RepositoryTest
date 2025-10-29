@@ -61,7 +61,7 @@ export default defineConfig([
       "@typescript-eslint/explicit-module-boundary-types": "warn", // Require return types on exported functions
       "@typescript-eslint/naming-convention": "warn", // Enforce consistent naming conventions
       "@typescript-eslint/no-duplicate-enum-values": "warn", // Disallow duplicate values in enums
-      "@typescript-eslint/no-require-imports": "warn", // Disallow require(), prefer import
+      "@javascript-eslint/no-require-imports": "warn", // Disallow require(), prefer import
       "@typescript-eslint/no-useless-empty-export": "warn", // Disallow `export {}`
       "@typescript-eslint/consistent-generic-constructors": "warn", // Enforce consistent generic constructors
       "@typescript-eslint/consistent-type-definitions": "warn", // Enforce consistent type definitions (interface vs type)
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
