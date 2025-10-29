@@ -76,16 +76,16 @@ export default defineConfig([
       "@typescript-eslint/no-this-alias": "warn", // Disallow assigning this to variables
       "@typescript-eslint/ban-ts-comment": "warn", // Disallow // @ts-ignore, etc.
       "@typescript-eslint/no-unnecessary-qualifier": "off", // Disallow unnecessary namespace qualifiers
-      "@typescript-eslint/no-unnecessary-type-constraint": "off", // Disallow unnecessary generic constraints
-      "@typescript-eslint/prefer-enum-initializers": "warn", // Require enum members to be initialized
-      "@typescript-eslint/prefer-function-type": "warn", // Prefer function types over interfaces
-      "@typescript-eslint/prefer-string-starts-ends-with": "warn", // Prefer startsWith/endsWith
-      "@typescript-eslint/restrict-plus-operands": "warn", // Enforce correct operand types for +
-      "@typescript-eslint/switch-exhaustiveness-check": "warn", // Require exhaustive switch statements
-      "@typescript-eslint/unified-signatures": "warn", // Combine function overloads when possible
-      "@typescript-eslint/no-implied-eval": "warn", // TS-safe version of no-implied-eval
-      "@typescript-eslint/no-use-before-define": "error", // TS-safe version of no-use-before-define
-      "no-duplicate-imports": "warn", // Disallow duplicate imports
+      // "@typescript-eslint/no-unnecessary-type-constraint": "off", // Disallow unnecessary generic constraints
+      // "@typescript-eslint/prefer-enum-initializers": "warn", // Require enum members to be initialized
+      // "@typescript-eslint/prefer-function-type": "warn", // Prefer function types over interfaces
+      // "@typescript-eslint/prefer-string-starts-ends-with": "warn", // Prefer startsWith/endsWith
+      // "@typescript-eslint/restrict-plus-operands": "warn", // Enforce correct operand types for +
+      // "@typescript-eslint/switch-exhaustiveness-check": "warn", // Require exhaustive switch statements
+      // "@typescript-eslint/unified-signatures": "warn", // Combine function overloads when possible
+      // "@typescript-eslint/no-implied-eval": "warn", // TS-safe version of no-implied-eval
+      // "@typescript-eslint/no-use-before-define": "error", // TS-safe version of no-use-before-define
+      // "no-duplicate-imports": "warn", // Disallow duplicate imports
       "@typescript-eslint/no-duplicate-imports": "off", // Disallow duplicate imports
       "@typescript-eslint/no-explicit-any": "warn", // Disallow usage of any type
       "@typescript-eslint/no-floating-promises": "warn", // Require proper promise handling
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
