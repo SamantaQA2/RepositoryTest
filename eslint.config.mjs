@@ -53,7 +53,7 @@ export default defineConfig([
       // "max-classes-per-file": ["warn", 1], // Only allow one class per file
 
       // /* ----------------------- 🧽 Unused Imports / Vars ----------------------- */
-       "unused-imports/no-unused-imports": "warn", // Remove unused imports
+     //  "unused-imports/no-unused-imports": "warn", // Remove unused imports
       // "@typescript-eslint/no-unused-vars": "warn", // Remove unused variables
 
       // /* ----------------------- 🧠 TypeScript Rules ----------------------- */
@@ -94,12 +94,13 @@ export default defineConfig([
       // // "@typescript-eslint/array-type": "warn", // Enforce consistent array type syntax
       // "@typescript-eslint/no-shadow": "error", // Disallow variable shadowing
       // // "@typescript-eslint/ban-types": "error", // Disallow certain built-in types
-      "@typescript-eslint/no-unsafe-argument": "warn", // Disallow unsafe arguments
-      "@typescript-eslint/no-unsafe-assignment": "warn", // Disallow unsafe assignments
-      "@typescript-eslint/no-unsafe-return": "warn", // Disallow unsafe return values
+      // "@typescript-eslint/no-unsafe-argument": "warn", // Disallow unsafe arguments
+      // "@typescript-eslint/no-unsafe-assignment": "warn", // Disallow unsafe assignments
+      // "@typescript-eslint/no-unsafe-return": "warn", // Disallow unsafe return values
     },
   },
 ]);
+
 
 
 
