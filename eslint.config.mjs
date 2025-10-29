@@ -57,7 +57,7 @@ export default defineConfig([
       "@typescript-eslint/no-unused-vars": "warn", // Remove unused variables
 
       /* ----------------------- 🧠 TypeScript Rules ----------------------- */
-      "@typescript-eslint/explicit-function-return-type": "warn", // Require explicit return types on functions
+      // "@typescript-eslint/explicit-function-return-type": "warn", // Require explicit return types on functions
       "@typescript-eslint/explicit-module-boundary-types": "warn", // Require return types on exported functions
       "@typescript-eslint/naming-convention": "warn", // Enforce consistent naming conventions
       "@typescript-eslint/no-duplicate-enum-values": "warn", // Disallow duplicate values in enums
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
