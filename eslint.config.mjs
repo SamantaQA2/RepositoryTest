@@ -92,13 +92,14 @@ export default defineConfig([
       "@typescript-eslint/consistent-type-imports": "warn", // Enforce using `import type`
       "@typescript-eslint/array-type": "warn", // Enforce consistent array type syntax
       "@typescript-eslint/no-shadow": "error", // Disallow variable shadowing
-      "@typescript-eslint/ban-types": "error", // Disallow certain built-in types
+      // "@typescript-eslint/ban-types": "error", // Disallow certain built-in types
       "@typescript-eslint/no-unsafe-argument": "warn", // Disallow unsafe arguments
       "@typescript-eslint/no-unsafe-assignment": "warn", // Disallow unsafe assignments
       "@typescript-eslint/no-unsafe-return": "warn", // Disallow unsafe return values
     },
   },
 ]);
+
 
 
 
