@@ -29,7 +29,7 @@ export default defineConfig([
       // "arrow-body-style": "warn", // Require braces in arrow functions for consistency
       // "block-scoped-var": "warn", // Treat var as block-scoped (like let)
       // "default-case-last": "warn", // Ensure default case is last in switch statements
-      // "default-param-last": "warn", // Default parameters should be declared last
+       "default-param-last": "warn", // Default parameters should be declared last
       // "max-params": ["warn", 4], // Limit function parameters (here: max 4)
       // "no-else-return": "warn", // Avoid else after return in if statements
       // "no-empty": "warn", // Disallow empty block statements
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
