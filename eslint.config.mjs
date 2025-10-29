@@ -53,7 +53,7 @@ export default defineConfig([
       // "max-classes-per-file": ["warn", 1], // Only allow one class per file
 
       // /* ----------------------- 🧽 Unused Imports / Vars ----------------------- */
-      // "unused-imports/no-unused-imports": "warn", // Remove unused imports
+       "unused-imports/no-unused-imports": "warn", // Remove unused imports
       // "@typescript-eslint/no-unused-vars": "warn", // Remove unused variables
 
       // /* ----------------------- 🧠 TypeScript Rules ----------------------- */
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
