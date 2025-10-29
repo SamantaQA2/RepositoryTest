@@ -86,6 +86,7 @@ export default defineConfig([
       "@typescript-eslint/no-implied-eval": "warn", // TS-safe version of no-implied-eval
       "@typescript-eslint/no-use-before-define": "error", // TS-safe version of no-use-before-define
       "no-duplicate-imports": "warn", // Disallow duplicate imports
+      "@typescript-eslint/no-duplicate-imports": "off", // Disallow duplicate imports
       "@typescript-eslint/no-explicit-any": "warn", // Disallow usage of any type
       "@typescript-eslint/no-floating-promises": "warn", // Require proper promise handling
       "@typescript-eslint/no-misused-promises": "error", // Disallow misused promises
@@ -99,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
