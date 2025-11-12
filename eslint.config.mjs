@@ -1,4 +1,8 @@
-export default defineConfig([
+import globals from "globals";
+import tseslint from "typescript-eslint";
+import pluginUnusedImports from "eslint-plugin-unused-imports";
+
+export default [
   {
     files: ["**/*.{js,ts,mjs,cjs}"],
     ignores: ["node_modules", "dist", "build", "eslint.config.mjs"],
@@ -17,12 +21,8 @@ export default defineConfig([
       "@typescript-eslint": tseslint.plugin,
       "unused-imports": pluginUnusedImports,
     },
-
-    // ❌ Remove or comment this part to get 0 coverage
-    // rules: {
-    //   "no-console": "off",
-    //   "no-var": "off",
-    //   ...
-    // },
+    rules: {
+      // ...
+    },
   },
-]);
+];
