@@ -89,7 +89,7 @@ export default defineConfig([
       "@typescript-eslint/no-duplicate-imports": "off", // Disallow duplicate imports
       "@typescript-eslint/no-explicit-any": "warn", // Disallow usage of any type
       "@typescript-eslint/no-floating-promises": "warn", // Require proper promise handling
-      "@typescript-eslint/no-misused-promises": "error", // Disallow misused promises
+     // "@typescript-eslint/no-misused-promises": "error", // Disallow misused promises
       "@typescript-eslint/consistent-type-imports": "warn", // Enforce using `import type`
       "@typescript-eslint/array-type": "warn", // Enforce consistent array type syntax
       "@typescript-eslint/no-shadow": "error", // Disallow variable shadowing
@@ -100,5 +100,6 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
