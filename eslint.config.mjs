@@ -20,8 +20,8 @@ export default defineConfig([
       },
     },
     plugins: {
-      "@typescript-eslint": tseslint.plugin,
-      "unused-imports": pluginUnusedImports,
+      // "@typescript-eslint": tseslint.plugin,
+      // "unused-imports": pluginUnusedImports,
     },
     rules: {
       /* ----------------------- 🧹 General JavaScript Rules ----------------------- */
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
