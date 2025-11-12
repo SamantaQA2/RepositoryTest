@@ -49,7 +49,7 @@ const a = 1;
 const f = 0.5;
 
 // ❌ Nested ternary
-//const val = x > 0 ? (y > 0 ? "both positive" : "x pos only") : "x non-positive";
+const val = x > 0 ? (y > 0 ? "both positive" : "x pos only") : "x non-positive";
 
 // ❌ New object / new
 const obj = new Object();
@@ -123,6 +123,7 @@ function switchTest(val: number): string {
       throw new Error("Invalid value");
   }
 }
+
 
 
 
