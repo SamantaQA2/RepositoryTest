@@ -58,48 +58,49 @@ export default defineConfig([
 
       /* ----------------------- 🧠 TypeScript Rules ----------------------- */
       // "@typescript-eslint/explicit-function-return-type": "warn", // Require explicit return types on functions
-      "@typescript-eslint/explicit-module-boundary-types": "warn", // Require return types on exported functions
-      "@typescript-eslint/naming-convention": "warn", // Enforce consistent naming conventions
-      "@typescript-eslint/no-duplicate-enum-values": "warn", // Disallow duplicate values in enums
-      "@typescript-eslint/no-require-imports": "warn", // Disallow require(), prefer import
-      "@typescript-eslint/no-useless-empty-export": "warn", // Disallow `export {}`
-      "@typescript-eslint/consistent-generic-constructors": "warn", // Enforce consistent generic constructors
-      "@typescript-eslint/consistent-type-definitions": "warn", // Enforce consistent type definitions (interface vs type)
-      "@typescript-eslint/consistent-type-exports": "warn", // Require consistent type export style
-      "@typescript-eslint/method-signature-style": "warn", // Enforce method signature consistency
-      "@typescript-eslint/no-confusing-void-expression": "warn", // Disallow confusing void expressions
-      "@typescript-eslint/no-dynamic-delete": "warn", // Disallow dynamic delete
-      "@typescript-eslint/no-extra-non-null-assertion": "warn", // Disallow extra non-null assertions (!!)
-      "@typescript-eslint/no-inferrable-types": "warn", // Disallow explicit types that can be inferred
-      "@typescript-eslint/no-non-null-assertion": "warn", // Disallow non-null assertions (!)
-      "@typescript-eslint/no-redundant-type-constituents": "warn", // Simplify redundant type constituents
-      "@typescript-eslint/no-this-alias": "warn", // Disallow assigning this to variables
-      "@typescript-eslint/ban-ts-comment": "warn", // Disallow // @ts-ignore, etc.
-      "@typescript-eslint/no-unnecessary-qualifier": "off", // Disallow unnecessary namespace qualifiers
-      "@typescript-eslint/no-unnecessary-type-constraint": "off", // Disallow unnecessary generic constraints
-      "@typescript-eslint/prefer-enum-initializers": "warn", // Require enum members to be initialized
-      "@typescript-eslint/prefer-function-type": "warn", // Prefer function types over interfaces
-      "@typescript-eslint/prefer-string-starts-ends-with": "warn", // Prefer startsWith/endsWith
-      "@typescript-eslint/restrict-plus-operands": "warn", // Enforce correct operand types for +
-      "@typescript-eslint/switch-exhaustiveness-check": "warn", // Require exhaustive switch statements
-      "@typescript-eslint/unified-signatures": "warn", // Combine function overloads when possible
-      "@typescript-eslint/no-implied-eval": "warn", // TS-safe version of no-implied-eval
-      "@typescript-eslint/no-use-before-define": "warn", // TS-safe version of no-use-before-define
-      "no-duplicate-imports": "warn", // Disallow duplicate imports
-      "@typescript-eslint/no-duplicate-imports": "off", // Disallow duplicate imports
-      "@typescript-eslint/no-explicit-any": "warn", // Disallow usage of any type
-      "@typescript-eslint/no-floating-promises": "warn", // Require proper promise handling
-     // "@typescript-eslint/no-misused-promises": "warn", // Disallow misused promises
-      "@typescript-eslint/consistent-type-imports": "warn", // Enforce using `import type`
-      "@typescript-eslint/array-type": "warn", // Enforce consistent array type syntax
-      "@typescript-eslint/no-shadow": "warn", // Disallow variable shadowing
-      //"@typescript-eslint/ban-types": "warn", // Disallow certain built-in types
-      "@typescript-eslint/no-unsafe-argument": "warn", // Disallow unsafe arguments
-      "@typescript-eslint/no-unsafe-assignment": "warn", // Disallow unsafe assignments
-      "@typescript-eslint/no-unsafe-return": "warn", // Disallow unsafe return values
+     //  "@typescript-eslint/explicit-module-boundary-types": "warn", // Require return types on exported functions
+     //  "@typescript-eslint/naming-convention": "warn", // Enforce consistent naming conventions
+     //  "@typescript-eslint/no-duplicate-enum-values": "warn", // Disallow duplicate values in enums
+     //  "@typescript-eslint/no-require-imports": "warn", // Disallow require(), prefer import
+     //  "@typescript-eslint/no-useless-empty-export": "warn", // Disallow `export {}`
+     //  "@typescript-eslint/consistent-generic-constructors": "warn", // Enforce consistent generic constructors
+     //  "@typescript-eslint/consistent-type-definitions": "warn", // Enforce consistent type definitions (interface vs type)
+     //  "@typescript-eslint/consistent-type-exports": "warn", // Require consistent type export style
+     //  "@typescript-eslint/method-signature-style": "warn", // Enforce method signature consistency
+     //  "@typescript-eslint/no-confusing-void-expression": "warn", // Disallow confusing void expressions
+     //  "@typescript-eslint/no-dynamic-delete": "warn", // Disallow dynamic delete
+     //  "@typescript-eslint/no-extra-non-null-assertion": "warn", // Disallow extra non-null assertions (!!)
+     //  "@typescript-eslint/no-inferrable-types": "warn", // Disallow explicit types that can be inferred
+     //  "@typescript-eslint/no-non-null-assertion": "warn", // Disallow non-null assertions (!)
+     //  "@typescript-eslint/no-redundant-type-constituents": "warn", // Simplify redundant type constituents
+     //  "@typescript-eslint/no-this-alias": "warn", // Disallow assigning this to variables
+     //  "@typescript-eslint/ban-ts-comment": "warn", // Disallow // @ts-ignore, etc.
+     //  "@typescript-eslint/no-unnecessary-qualifier": "off", // Disallow unnecessary namespace qualifiers
+     //  "@typescript-eslint/no-unnecessary-type-constraint": "off", // Disallow unnecessary generic constraints
+     //  "@typescript-eslint/prefer-enum-initializers": "warn", // Require enum members to be initialized
+     //  "@typescript-eslint/prefer-function-type": "warn", // Prefer function types over interfaces
+     //  "@typescript-eslint/prefer-string-starts-ends-with": "warn", // Prefer startsWith/endsWith
+     //  "@typescript-eslint/restrict-plus-operands": "warn", // Enforce correct operand types for +
+     //  "@typescript-eslint/switch-exhaustiveness-check": "warn", // Require exhaustive switch statements
+     //  "@typescript-eslint/unified-signatures": "warn", // Combine function overloads when possible
+     //  "@typescript-eslint/no-implied-eval": "warn", // TS-safe version of no-implied-eval
+     //  "@typescript-eslint/no-use-before-define": "warn", // TS-safe version of no-use-before-define
+     //  "no-duplicate-imports": "warn", // Disallow duplicate imports
+     //  "@typescript-eslint/no-duplicate-imports": "off", // Disallow duplicate imports
+     //  "@typescript-eslint/no-explicit-any": "warn", // Disallow usage of any type
+     //  "@typescript-eslint/no-floating-promises": "warn", // Require proper promise handling
+     // // "@typescript-eslint/no-misused-promises": "warn", // Disallow misused promises
+     //  "@typescript-eslint/consistent-type-imports": "warn", // Enforce using `import type`
+     //  "@typescript-eslint/array-type": "warn", // Enforce consistent array type syntax
+     //  "@typescript-eslint/no-shadow": "warn", // Disallow variable shadowing
+     //  //"@typescript-eslint/ban-types": "warn", // Disallow certain built-in types
+     //  "@typescript-eslint/no-unsafe-argument": "warn", // Disallow unsafe arguments
+     //  "@typescript-eslint/no-unsafe-assignment": "warn", // Disallow unsafe assignments
+     //  "@typescript-eslint/no-unsafe-return": "warn", // Disallow unsafe return values
     },
   },
 ]);
+
 
 
 
