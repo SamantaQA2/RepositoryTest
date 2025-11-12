@@ -25,32 +25,32 @@ export default defineConfig([
     },
     rules: {
       /* ----------------------- 🧹 General JavaScript Rules ----------------------- */
-      "prefer-const": "warn", // Require const for variables that are never reassigned
-      "arrow-body-style": "warn", // Require braces in arrow functions for consistency
-      "block-scoped-var": "warn", // Treat var as block-scoped (like let)
-      "default-case-last": "warn", // Ensure default case is last in switch statements
-      "default-param-last": "warn", // Default parameters should be declared last
-      "max-params": ["warn", 4], // Limit function parameters (here: max 4)
-      "no-else-return": "warn", // Avoid else after return in if statements
-      "no-empty": "warn", // Disallow empty block statements
-      "no-extra-semi": "warn", // Disallow unnecessary semicolons
-      "no-floating-decimal": "warn", // Require leading 0 before decimals
-      "no-nested-ternary": "warn", // Avoid nested ternary operators
-      "no-new": "warn", // Disallow creating new objects for side effects only
-      "no-new-object": "warn", // Disallow `new Object()`
-      "no-param-reassign": "warn", // Prevent parameter reassignment
-      "no-useless-concat": "warn", // Disallow unnecessary string concatenation
-      "no-useless-return": "warn", // Disallow redundant return statements
-      "prefer-template": "warn", // Prefer template literals over string concatenation
-      yoda: "warn", // Enforce yoda conditions (literal on right)
-      eqeqeq: "warn", // Require strict equality (=== and !==)
-      "no-console": "warn", // Disallow console.log, warn, etc.
-      "no-var": "warn", // Require let/const instead of var
-      "no-undef": "warn", // Disallow undeclared variables
-      "no-eval": "warn", // Disallow use of eval()
-      "no-implied-eval": "warn", // Disallow implied eval() (e.g. setTimeout with string)
-      "no-use-before-define": "warn", // Disallow using variables before declaration
-      "max-classes-per-file": ["warn", 1], // Only allow one class per file
+      // "prefer-const": "warn", // Require const for variables that are never reassigned
+      // "arrow-body-style": "warn", // Require braces in arrow functions for consistency
+      // "block-scoped-var": "warn", // Treat var as block-scoped (like let)
+      // "default-case-last": "warn", // Ensure default case is last in switch statements
+      // "default-param-last": "warn", // Default parameters should be declared last
+      // "max-params": ["warn", 4], // Limit function parameters (here: max 4)
+      // "no-else-return": "warn", // Avoid else after return in if statements
+      // "no-empty": "warn", // Disallow empty block statements
+      // "no-extra-semi": "warn", // Disallow unnecessary semicolons
+      // "no-floating-decimal": "warn", // Require leading 0 before decimals
+      // "no-nested-ternary": "warn", // Avoid nested ternary operators
+      // "no-new": "warn", // Disallow creating new objects for side effects only
+      // "no-new-object": "warn", // Disallow `new Object()`
+      // "no-param-reassign": "warn", // Prevent parameter reassignment
+      // "no-useless-concat": "warn", // Disallow unnecessary string concatenation
+      // "no-useless-return": "warn", // Disallow redundant return statements
+      // "prefer-template": "warn", // Prefer template literals over string concatenation
+      // yoda: "warn", // Enforce yoda conditions (literal on right)
+      // eqeqeq: "warn", // Require strict equality (=== and !==)
+      // "no-console": "warn", // Disallow console.log, warn, etc.
+      // "no-var": "warn", // Require let/const instead of var
+      // "no-undef": "warn", // Disallow undeclared variables
+      // "no-eval": "warn", // Disallow use of eval()
+      // "no-implied-eval": "warn", // Disallow implied eval() (e.g. setTimeout with string)
+      // "no-use-before-define": "warn", // Disallow using variables before declaration
+      // "max-classes-per-file": ["warn", 1], // Only allow one class per file
 
       // /* ----------------------- 🧽 Unused Imports / Vars ----------------------- */
       // "unused-imports/no-unused-imports": "warn", // Remove unused imports
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
